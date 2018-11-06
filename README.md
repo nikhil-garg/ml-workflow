@@ -1,16 +1,11 @@
 # proj_structure_code_workflow_ML
-How to structure python code some some generic ML project. The idea is to have a generic template with an automatic workflow.
+How to structure python code for some generic Machine Learning project with multiple developers?
+That's the question we've asked oursevles and we tried to simplify the starting point of your project. Of course there is no single solution to this problem, and different projects require different workflows. Nonetheless, we tried to keep it general where possible. Furthermore, we've already implemented some functions that help you explore and validate your models.
 
-This template is intended to be a starting point in larger ML projects such as Kaggle Competition worked on in a team.
-If you've never worked on a large project involving several developpers you probably ask yourself:
-"Why should I use such a complicated structure?!"
-We agree that the following structure is not the simplest and that it could be done in an easier way. Our intention
-is to provide a template that suits most ML problems and can be applied to quite large projects of any kind. Feel free to
-adapt this template to your individual problem and drop parts that don't suit you.
-The template is made in a from such that hard-coding is avoided. This is we implemented the template such that you need to call
-the main and passing an argument. The argument specifies what code will be called in the program. It allows you to start on one single
-code from beginning on without always executing the whole code. Furthermore, several developpers may work on different tasks within the
-same code simultaneously.
+This template is intended to be a starting point for larger machine learning projects such as Kaggle competitions worked on in a team. Feel free to adapt this template to your individual problems and drop parts that don't suit you or don't fit to your project.
+
+We tried to come to a structure that helps you to avoid hard coding. This is the reason for the rather complicated starting point with a main.py file that calls function from programs.py. 
+
 Lastly, we tried to optimize the structure for the use of git. .gitignore files are present and only need to be slightly adapted.
 
 We hope we could help you with your project and in case of any question you can contact us under internal@analytics-club.org.
@@ -84,6 +79,9 @@ We hope we could help you with your project and in case of any question you can 
 │       └── evaluation.py
 
 ```
+- create a python env based on a list of packages from environment.yml    
+  ```conda env create -f environment.yml -n env_your_proj```
+ 
 
 # Instruction
 ## create a python env based on a list of packages from environment.yml
@@ -92,9 +90,26 @@ We hope we could help you with your project and in case of any question you can 
 ## update a python env based on a list of packages from environment.yml
 ```conda env update -f environment.yml -n env_ds```
 
+## activate the env  
+  ```activate env_your_proj```
+  
+## in case of issue clean all the cache in conda
+   ```conda clean -a -y```
+
+## delete the env to recreate it when too many changes are done  
+  ```conda env remove -n env_your_proj```
+
+
 ## download the data manually
 python src/data/download.py "https://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data" data/raw/iris.csv
 
+
+# How to use the template
+After you've installed your environment
+You can call the code from any console by
+```
+python main.py
+```
 
 # References
 https://towardsdatascience.com/structure-and-automated-workflow-for-a-machine-learning-project-2fa30d661c1e
