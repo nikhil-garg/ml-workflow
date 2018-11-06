@@ -1,0 +1,145 @@
+test_score;std;train_score;cv_folds;clf__gamma;clf__degree;date;clf
+0.8666666666666667;0.0596284793999944;0.8659259259259258;10.0;0.001;2;2018.11.06 10:56;"SVC(C=1.0, cache_size=200, class_weight='balanced', coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
+  kernel='poly', max_iter=-1, probability=False, random_state=None,
+  shrinking=True, tol=0.001, verbose=False)"
+0.8866666666666667;0.05999999999999999;0.8985185185185184;10.0;0.01;2;2018.11.06 10:56;"SVC(C=1.0, cache_size=200, class_weight='balanced', coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
+  kernel='poly', max_iter=-1, probability=False, random_state=None,
+  shrinking=True, tol=0.001, verbose=False)"
+0.9533333333333334;0.04268749491621898;0.948148148148148;10.0;0.02;2;2018.11.06 10:56;"SVC(C=1.0, cache_size=200, class_weight='balanced', coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
+  kernel='poly', max_iter=-1, probability=False, random_state=None,
+  shrinking=True, tol=0.001, verbose=False)"
+0.9666666666666668;0.04472135954999579;0.9666666666666666;10.0;0.035;2;2018.11.06 10:56;"SVC(C=1.0, cache_size=200, class_weight='balanced', coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
+  kernel='poly', max_iter=-1, probability=False, random_state=None,
+  shrinking=True, tol=0.001, verbose=False)"
+0.9866666666666668;0.026666666666666658;0.9874074074074076;10.0;0.05;2;2018.11.06 10:56;"SVC(C=1.0, cache_size=200, class_weight='balanced', coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
+  kernel='poly', max_iter=-1, probability=False, random_state=None,
+  shrinking=True, tol=0.001, verbose=False)"
+0.98;0.030550504633038926;0.988148148148148;10.0;0.07;2;2018.11.06 10:56;"SVC(C=1.0, cache_size=200, class_weight='balanced', coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
+  kernel='poly', max_iter=-1, probability=False, random_state=None,
+  shrinking=True, tol=0.001, verbose=False)"
+0.7466666666666667;0.09333333333333337;0.7488888888888888;10.0;0.001;3;2018.11.06 10:56;"SVC(C=1.0, cache_size=200, class_weight='balanced', coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
+  kernel='poly', max_iter=-1, probability=False, random_state=None,
+  shrinking=True, tol=0.001, verbose=False)"
+0.8666666666666667;0.05163977794943221;0.8711111111111112;10.0;0.01;3;2018.11.06 10:56;"SVC(C=1.0, cache_size=200, class_weight='balanced', coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
+  kernel='poly', max_iter=-1, probability=False, random_state=None,
+  shrinking=True, tol=0.001, verbose=False)"
+0.9466666666666668;0.06531972647421806;0.9540740740740744;10.0;0.02;3;2018.11.06 10:56;"SVC(C=1.0, cache_size=200, class_weight='balanced', coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
+  kernel='poly', max_iter=-1, probability=False, random_state=None,
+  shrinking=True, tol=0.001, verbose=False)"
+0.9733333333333334;0.03265986323710903;0.983703703703704;10.0;0.035;3;2018.11.06 10:56;"SVC(C=1.0, cache_size=200, class_weight='balanced', coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
+  kernel='poly', max_iter=-1, probability=False, random_state=None,
+  shrinking=True, tol=0.001, verbose=False)"
+0.9666666666666668;0.04472135954999579;0.979259259259259;10.0;0.05;3;2018.11.06 10:56;"SVC(C=1.0, cache_size=200, class_weight='balanced', coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
+  kernel='poly', max_iter=-1, probability=False, random_state=None,
+  shrinking=True, tol=0.001, verbose=False)"
+0.9666666666666668;0.04472135954999579;0.9807407407407408;10.0;0.07;3;2018.11.06 10:56;"SVC(C=1.0, cache_size=200, class_weight='balanced', coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
+  kernel='poly', max_iter=-1, probability=False, random_state=None,
+  shrinking=True, tol=0.001, verbose=False)"
+0.64;0.13063945294843615;0.6422222222222222;10.0;0.001;4;2018.11.06 10:56;"SVC(C=1.0, cache_size=200, class_weight='balanced', coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
+  kernel='poly', max_iter=-1, probability=False, random_state=None,
+  shrinking=True, tol=0.001, verbose=False)"
+0.86;0.05537749241945382;0.865925925925926;10.0;0.01;4;2018.11.06 10:56;"SVC(C=1.0, cache_size=200, class_weight='balanced', coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
+  kernel='poly', max_iter=-1, probability=False, random_state=None,
+  shrinking=True, tol=0.001, verbose=False)"
+0.96;0.053333333333333316;0.9614814814814814;10.0;0.02;4;2018.11.06 10:56;"SVC(C=1.0, cache_size=200, class_weight='balanced', coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
+  kernel='poly', max_iter=-1, probability=False, random_state=None,
+  shrinking=True, tol=0.001, verbose=False)"
+0.9666666666666668;0.04472135954999579;0.9785185185185185;10.0;0.035;4;2018.11.06 10:56;"SVC(C=1.0, cache_size=200, class_weight='balanced', coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
+  kernel='poly', max_iter=-1, probability=False, random_state=None,
+  shrinking=True, tol=0.001, verbose=False)"
+0.9666666666666668;0.04472135954999579;0.98;10.0;0.05;4;2018.11.06 10:56;"SVC(C=1.0, cache_size=200, class_weight='balanced', coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
+  kernel='poly', max_iter=-1, probability=False, random_state=None,
+  shrinking=True, tol=0.001, verbose=False)"
+0.98;0.04268749491621898;0.98;10.0;0.07;4;2018.11.06 10:56;"SVC(C=1.0, cache_size=200, class_weight='balanced', coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
+  kernel='poly', max_iter=-1, probability=False, random_state=None,
+  shrinking=True, tol=0.001, verbose=False)"
+0.8666666666666667;0.059628479399994404;0.8659259259259258;10.0;0.001;2;2018.11.06 15:21;"SVC(C=1.0, cache_size=200, class_weight='balanced', coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
+  kernel='poly', max_iter=-1, probability=False, random_state=None,
+  shrinking=True, tol=0.001, verbose=False)"
+0.8866666666666667;0.05999999999999999;0.8985185185185184;10.0;0.01;2;2018.11.06 15:21;"SVC(C=1.0, cache_size=200, class_weight='balanced', coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
+  kernel='poly', max_iter=-1, probability=False, random_state=None,
+  shrinking=True, tol=0.001, verbose=False)"
+0.9533333333333334;0.04268749491621898;0.9481481481481481;10.0;0.02;2;2018.11.06 15:21;"SVC(C=1.0, cache_size=200, class_weight='balanced', coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
+  kernel='poly', max_iter=-1, probability=False, random_state=None,
+  shrinking=True, tol=0.001, verbose=False)"
+0.9666666666666667;0.04472135954999579;0.9666666666666666;10.0;0.035;2;2018.11.06 15:21;"SVC(C=1.0, cache_size=200, class_weight='balanced', coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
+  kernel='poly', max_iter=-1, probability=False, random_state=None,
+  shrinking=True, tol=0.001, verbose=False)"
+0.9866666666666667;0.026666666666666658;0.9874074074074075;10.0;0.05;2;2018.11.06 15:21;"SVC(C=1.0, cache_size=200, class_weight='balanced', coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
+  kernel='poly', max_iter=-1, probability=False, random_state=None,
+  shrinking=True, tol=0.001, verbose=False)"
+0.98;0.030550504633038926;0.9881481481481481;10.0;0.07;2;2018.11.06 15:21;"SVC(C=1.0, cache_size=200, class_weight='balanced', coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
+  kernel='poly', max_iter=-1, probability=False, random_state=None,
+  shrinking=True, tol=0.001, verbose=False)"
+0.7466666666666667;0.09333333333333335;0.7488888888888888;10.0;0.001;3;2018.11.06 15:21;"SVC(C=1.0, cache_size=200, class_weight='balanced', coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
+  kernel='poly', max_iter=-1, probability=False, random_state=None,
+  shrinking=True, tol=0.001, verbose=False)"
+0.8666666666666667;0.05163977794943221;0.8711111111111112;10.0;0.01;3;2018.11.06 15:21;"SVC(C=1.0, cache_size=200, class_weight='balanced', coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
+  kernel='poly', max_iter=-1, probability=False, random_state=None,
+  shrinking=True, tol=0.001, verbose=False)"
+0.9466666666666667;0.06531972647421806;0.9540740740740743;10.0;0.02;3;2018.11.06 15:21;"SVC(C=1.0, cache_size=200, class_weight='balanced', coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
+  kernel='poly', max_iter=-1, probability=False, random_state=None,
+  shrinking=True, tol=0.001, verbose=False)"
+0.9733333333333334;0.03265986323710903;0.9837037037037039;10.0;0.035;3;2018.11.06 15:21;"SVC(C=1.0, cache_size=200, class_weight='balanced', coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
+  kernel='poly', max_iter=-1, probability=False, random_state=None,
+  shrinking=True, tol=0.001, verbose=False)"
+0.9666666666666667;0.04472135954999579;0.979259259259259;10.0;0.05;3;2018.11.06 15:21;"SVC(C=1.0, cache_size=200, class_weight='balanced', coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
+  kernel='poly', max_iter=-1, probability=False, random_state=None,
+  shrinking=True, tol=0.001, verbose=False)"
+0.9666666666666667;0.04472135954999579;0.9807407407407407;10.0;0.07;3;2018.11.06 15:21;"SVC(C=1.0, cache_size=200, class_weight='balanced', coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
+  kernel='poly', max_iter=-1, probability=False, random_state=None,
+  shrinking=True, tol=0.001, verbose=False)"
+0.64;0.13063945294843615;0.6422222222222222;10.0;0.001;4;2018.11.06 15:21;"SVC(C=1.0, cache_size=200, class_weight='balanced', coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
+  kernel='poly', max_iter=-1, probability=False, random_state=None,
+  shrinking=True, tol=0.001, verbose=False)"
+0.86;0.05537749241945382;0.865925925925926;10.0;0.01;4;2018.11.06 15:21;"SVC(C=1.0, cache_size=200, class_weight='balanced', coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
+  kernel='poly', max_iter=-1, probability=False, random_state=None,
+  shrinking=True, tol=0.001, verbose=False)"
+0.96;0.053333333333333316;0.9614814814814814;10.0;0.02;4;2018.11.06 15:21;"SVC(C=1.0, cache_size=200, class_weight='balanced', coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
+  kernel='poly', max_iter=-1, probability=False, random_state=None,
+  shrinking=True, tol=0.001, verbose=False)"
+0.9666666666666667;0.04472135954999579;0.9785185185185185;10.0;0.035;4;2018.11.06 15:21;"SVC(C=1.0, cache_size=200, class_weight='balanced', coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
+  kernel='poly', max_iter=-1, probability=False, random_state=None,
+  shrinking=True, tol=0.001, verbose=False)"
+0.9666666666666667;0.04472135954999579;0.9799999999999999;10.0;0.05;4;2018.11.06 15:21;"SVC(C=1.0, cache_size=200, class_weight='balanced', coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
+  kernel='poly', max_iter=-1, probability=False, random_state=None,
+  shrinking=True, tol=0.001, verbose=False)"
+0.98;0.04268749491621898;0.9799999999999999;10.0;0.07;4;2018.11.06 15:21;"SVC(C=1.0, cache_size=200, class_weight='balanced', coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
+  kernel='poly', max_iter=-1, probability=False, random_state=None,
+  shrinking=True, tol=0.001, verbose=False)"
