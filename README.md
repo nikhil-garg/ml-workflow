@@ -93,16 +93,11 @@ We hope we could help you with your project and in case of any question you can 
 ## activate the env  
   ```activate env_your_proj```
   
-## in case of issue clean all the cache in conda
+## in case of an issue clean all the cache in conda
    ```conda clean -a -y```
 
 ## delete the env to recreate it when too many changes are done  
   ```conda env remove -n env_your_proj```
-
-
-## download the data manually
-python src/data/download.py "https://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data" data/raw/iris.csv
-
 
 # How to use the template
 After you've installed your environment
