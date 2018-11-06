@@ -6,8 +6,7 @@ Created on Wed Sep 12 2018
 
 import numpy as np
 import pandas as pd
-import xml.etree.ElementTree as ET
-import CCDA_Standard_Functions as sf
+
 
 # extraction of eform from the SQL database
 # These are example functions based on an actual project
