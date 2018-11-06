@@ -101,10 +101,25 @@ We hope we could help you with your project and in case of any question you can 
 
 # How to use the template
 After you've installed your environment
-You can call the code from any console by
-```
-python main.py
-```
+You can call the code from any console.
+Examples:
+   ```python main.py --program extract_data --mode prod```
+
+   ```python main.py --program preprocess --mode prod```
+ 
+ accepted programs:
+ - extract_data
+ - preprocess
+ - train
+ - test
+ 
+ accepted modes:
+ - dev
+ - prod
+ - test
+ 
+ Passing the program to be executed and its mode allows you to use the same code for different purposes.
+ Furthermore, several people can work on the same code doing differnt things.
 
 # References
 https://towardsdatascience.com/structure-and-automated-workflow-for-a-machine-learning-project-2fa30d661c1e
