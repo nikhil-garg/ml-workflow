@@ -1,3 +1,8 @@
+"""
+Created on Wed Nov 07 2018
+
+@author: Analytics Club at ETH internal@analytics-club.org
+"""
 import itertools
 from sklearn.metrics import (log_loss, f1_score, accuracy_score, average_precision_score, precision_score,
                              recall_score, roc_auc_score, mean_squared_error, r2_score)

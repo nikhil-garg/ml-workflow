@@ -1,7 +1,7 @@
 """
-Created on Wed Sep 12 2018
+Created on Wed Nov 07 2018
 
-@author: Fabien Tarrade fabien.tarrade@axa.ch
+@author: Analytics Club at ETH internal@analytics-club.org
 """
 
 import itertools

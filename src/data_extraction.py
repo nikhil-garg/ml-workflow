@@ -1,7 +1,7 @@
 """
-Created on Wed Sep 12 2018
+Created on Wed Nov 07 2018
 
-@author: Fabien Tarrade fabien.tarrade@axa.ch
+@author: Analytics Club at ETH internal@analytics-club.org
 """
 
 import numpy as np
@@ -31,7 +31,7 @@ def eforms_extr():
         WHERE
            a.description = 'FORMDATA'
                       AND
-           a.form_type = '0025'""",con_forms)
+           a.form_type = '0025'""", con_forms)
     return df_sql_db
 
 
@@ -127,7 +127,7 @@ def load_data(file_data=None):
 
     Parameters
     ----------
-    :param file_data: path to file
+    file_data : path to file
     """
     if file_data is None:
         df = pd.read_pickle("./data/DEFAULT_DATA")
@@ -143,9 +143,9 @@ def save_data(file_data, data, data_type='df'):
 
     Parameters
     ----------
-    :param data: data to be saved
-    :param file_data: path
-    :param type: 'df', 'np'
+    data : data to be saved
+    file_data : path
+    data_type : 'df', 'np'
     """
     if data_type == 'df':
         data.to_pickle(file_data)

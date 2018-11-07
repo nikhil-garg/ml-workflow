@@ -1,7 +1,7 @@
 """
-Created on Wed Sep 12 2018
+Created on Wed Nov 07 2018
 
-@author: Fabien Tarrade fabien.tarrade@axa.ch
+@author: Analytics Club at ETH internal@analytics-club.org
 """
 import re
 import numpy as np
@@ -88,22 +88,22 @@ def text_process(text, nlp, stopwords, language='de', mode='lemmatizing', number
     Parameters
     ----------
     text :  input text
-	
+
     nlp :
-	
+
     stopwords : list of stopwords
-	
+
     language : de, fr, it, en
-	
+
     mode : lemmatizing or stemming
-	
+
     number :
-	
+
     email :
-	
+
     Returns
-	-------
-	stemmed/lemmatized tokens
+    -------
+    stemmed/lemmatized tokens
 
     Lemmatizing and Stemming are not consistent yet. Lemmatizing removes e-mail addresses,
     numbers, punctuation which Stemming can't.
@@ -154,13 +154,15 @@ def detect_language(text, lang='en'):
 
     Parameters
     ----------
-    text :
-	
-    lang : default language, default 'en'
-	
+    text : string
+
+    lang : string
+        default language, default 'en'
+
     Returns
-	-------
-	detected language
+    -------
+    string
+        detected language
     """
     list_lang = ['de', 'fr', 'it', 'en']
     try:
