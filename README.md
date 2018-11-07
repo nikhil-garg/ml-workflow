@@ -103,6 +103,7 @@ We hope we could help you with your project and in case of any question you can 
 After you've installed your environment
 You can call the code from any console.
 Examples:
+
    ```python main.py --program extract_data --mode prod```
 
    ```python main.py --program preprocess --mode prod```
