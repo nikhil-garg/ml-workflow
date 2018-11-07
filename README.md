@@ -104,9 +104,9 @@ After you've installed your environment
 You can call the code from any console.
 Examples:
 
-   ```python main.py --program extract_data --mode prod```
+   ```python main.py --program extract_data```
 
-   ```python main.py --program preprocess --mode prod```
+   ```python main.py --program preprocess```
  
  accepted programs:
  - extract_data
@@ -114,14 +114,12 @@ Examples:
  - train
  - test
  
- accepted modes:
- - dev
- - prod
- - test
  
- Passing the program and its mode to be executed allows you to use the same code for different purposes.
- Furthermore, several people can work on the same code without affecting the other developers.
+ Passing the program to be executed allows you to use the same code for different purposes.
+
 # References
+https://github.com/tarrade/proj_structure_code_workflow_ML
+
 https://towardsdatascience.com/structure-and-automated-workflow-for-a-machine-learning-project-2fa30d661c1e
 
 https://towardsdatascience.com/structure-and-automated-workflow-for-a-machine-learning-project-part-2-b5b420625102  
