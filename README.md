@@ -119,9 +119,8 @@ Examples:
  - prod
  - test
  
- Passing the program to be executed and its mode allows you to use the same code for different purposes.
- Furthermore, several people can work on the same code doing differnt things.
-
+ Passing the program and its mode to be executed allows you to use the same code for different purposes.
+ Furthermore, several people can work on the same code without affecting the other developers.
 # References
 https://towardsdatascience.com/structure-and-automated-workflow-for-a-machine-learning-project-2fa30d661c1e
 
