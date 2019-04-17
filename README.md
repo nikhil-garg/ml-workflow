@@ -20,17 +20,10 @@ We hope we could help you with your project and in case of any question you can 
 │
 ├── README.md                <- The top-level README for developers using this project
 │
-├── environment.yml          <- The requirements file for reproducing the analysis environment, e.g.
-│                                generated with `pip freeze > requirements.txt`
-│
-├── additional_models        <- Folder for additional models, e.g. Language models from Spacy, nltk,...
-│
-│
-├── bin                      <- Stuff to be deleted
-│
+├── environment.yml          <- Python environment
+│                               
 │
 ├── data
-│   ├── external             <- Data from third party sources.
 │   ├── processed            <- The final, canonical data sets for modeling.
 │   └── raw                  <- The original, immutable data dump.
 │
@@ -58,37 +51,33 @@ We hope we could help you with your project and in case of any question you can 
 ├── results
 │   ├── outputs
 │   └── models               <- Trained and serialized models, model predictions, or model summaries
-│
+│                               (if present)
 │
 ├── scores                   <- Cross validation scores are saved here. (Automatically generated)
 │   └── model_name           <- every model has its own folder. 
 │
-├── src                      <- Source code of this project.
+├── src                      <- Source code of this project. All final code comes here (Notebooks are thought for exploration)
 │   ├── __init__.py          <- Makes src a Python module
-│   ├── programs.py          <- main calls a function from programs. These functions represent different steps
-│   │                           within the workflow.
-│   ├── data                 <- Scripts to download or generate data
-│   │   └── data_extraction.py
-│   │
-│   ├── process              <- Scripts to turn raw data into features for modeling
-│   │   └── processing.py
+│   ├── main.py              <- main file, that can be called.
 │   │
 │   │
 │   └── utils                <- Scripts to create exploratory and results oriented visualizations
 │       └── exploration.py      / functions to evaluate models
 │       └── evaluation.py
 
-```
-- create a python env based on a list of packages from environment.yml    
-  ```conda env create -f environment.yml -n env_your_proj```
- 
+
+# How to use a python environment
+The purpose of virtual environments is to ensure that every developper has an identical python installation such that conflicts
+due to different versions can be minimalized.
 
 # Instruction
+open a console and move to the folder where your environment file is stored.
+
 ## create a python env based on a list of packages from environment.yml
-```conda env create -f environment.yml -n env_ds```
+```conda env create -f environment.yml -n env_your_proj```
 
 ## update a python env based on a list of packages from environment.yml
-```conda env update -f environment.yml -n env_ds```
+```conda env update -f environment.yml -n env__your_proj```
 
 ## activate the env  
   ```activate env_your_proj```
@@ -100,22 +89,9 @@ We hope we could help you with your project and in case of any question you can 
   ```conda env remove -n env_your_proj```
 
 # How to use the template
-After you've installed your environment
-You can call the code from any console.
-Examples:
 
-   ```python main.py --program extract_data```
+ 
 
-   ```python main.py --program preprocess```
- 
- accepted programs:
- - extract_data
- - preprocess
- - train
- - test
- 
- 
- Passing the program to be executed allows you to use the same code for different purposes.
 
 # References
 https://github.com/tarrade/proj_structure_code_workflow_ML
