@@ -41,7 +41,7 @@ We hope we could help you with your project and in case of any question you can 
 │   └── references           <- Data dictionaries, manuals, and all other explanatory materials.
 │
 │
-├── misc                      <- miscellaneous
+├── misc                     <- miscellaneous
 │
 │
 ├── notebooks                <- Jupyter notebooks. Every developper has its own folder for exploratory
