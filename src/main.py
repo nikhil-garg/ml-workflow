@@ -2,6 +2,8 @@
 Created on Wed Nov 07 2018
 
 @author: Analytics Club at ETH internal@analytics-club.org
+
+Example structure of the main file
 """
 from src.data_extraction import load_data, save_data, merging, xml2df
 from src.preprocessing import text_process, anonymization, clean_up, detect_language
