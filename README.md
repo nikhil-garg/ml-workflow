@@ -64,7 +64,7 @@ We hope we could help you with your project and in case of any question you can 
 │   └── utils                <- Scripts to create exploratory and results oriented visualizations
 │       └── exploration.py      / functions to evaluate models
 │       └── evaluation.py
-
+```
 
 # How to use a python environment
 The purpose of virtual environments is to ensure that every developper has an identical python installation such that conflicts
